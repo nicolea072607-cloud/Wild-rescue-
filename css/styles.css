@@ -70,7 +70,9 @@ font-size: 1.75em;
 font-weight: bold;
 text-align: center;
 }
-
+.round {
+    border-radius: 6px;
+}
 #contact {
 text-align: center;
 }
