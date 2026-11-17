@@ -75,6 +75,10 @@ text-align: center;
 text-align: center;
 }
 
+.mobile h1 {
+    font-family: 'Emblema One', cursive;
+}
+
 /* Style rules for footer content */
 footer {
 text-align: center;
