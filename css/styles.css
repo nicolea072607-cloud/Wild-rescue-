@@ -165,29 +165,6 @@ form {
     text-decoration: none;
     font-weight: bold;
 }
-/* Media Query for Tablet Viewport */
-@media screen and (min-width: 620px), print {
-    /* Tablet viewport: show tab-desk class, hide mobile class */
-    .tab-desk {
-        display: block;
-    }
-
-    .mobile {
-        display: none;
-    }
-
-    /* Tablet viewport: style rules for nav area */
-    nav li {
-        border-top: none;
-        display: inline-block;
-        font-size: 1.25em;
-    }
-
-    nav li a {
-        padding: 0.5em;
-    }
-}
-
 
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 620px), print {
@@ -243,5 +220,13 @@ form {
 
     main {
         background-color: #f6eee4;
+    }
+}
+
+/* Media Query for Print */
+@media print {
+    body {
+        background-color: white;
+        color: black;
     }
 }
