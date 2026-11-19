@@ -4,12 +4,6 @@ margin: 0;
 padding: 0;
 border: 0;
 }
-/* CSS Reset */
-body, header, nav, main, footer, img, h1, h3, ul {
-margin: 0;
-padding: 0;
-border: 0;
-}
 
 /* Style rules for body and images */
 body {
@@ -170,4 +164,29 @@ form {
     color: #f6eee4;
     text-decoration: none;
     font-weight: bold;
+}
+/* Media Query for Tablet Viewport */
+
+@media screen and (min-width: 620px), print {
+
+    /* Tablet viewport: show tab-desk class, hide mobile class */
+    .tab-desk {
+        display: block;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    /* Tablet viewport: style rules for nav area */
+    nav li {
+        border-top: none;
+        display: inline-block;
+        font-size: 1.25em;
+    }
+
+    nav li a {
+        padding: 0.5em;
+    }
+
 }
